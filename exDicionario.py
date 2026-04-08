@@ -25,8 +25,8 @@ while True:
         print(f"As notas do aluno {escolha} são: ")
         for i in range(2):
             print(notas[escolha][i])  # print de todas as notas
-            print(f"A media do {escolha} é: ")
-            print((notas[escolha][0] + notas[escolha][1]) / 2)  # print com a media das notas
+        print(f"A media do {escolha} é: ")
+        print((notas[escolha][0] + notas[escolha][1]) / 2)  # print com a media das notas
     else:
         print(f"Nenhum aluno com o nome {escolha} cadastrado")
 
